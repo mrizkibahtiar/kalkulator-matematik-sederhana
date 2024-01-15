@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATIK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Katik <span>Kalkulator Matematik</span></h1>
+    </nav>
+    <main>
+        <h2>Welcome to Katik</h2>
+        <p>Hai Sobat, Selamat datang di Katik:)</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <div class="container-button">
+            <a class="persegi">Persegi</a>
+            <a class="persegi-panjang">P.Panjang</a>
+        </div>
+        <div class="section-persegi">
+            <div class="nav-persegi">
+                <span>Luas Persegi</span>
+            </div>
+            <img src="img/Persegi.jpg">
+            <div class="atas">
+                <p>Rumus Luas Persegi yaitu : </p>
+                <p style="text-align: center;font-weight: 700;">L = S x S</p>
+                <p>Di mana : <br>L = luas<br>S = Sisi</p>
+            </div>
+            <hr>
+            <form class="bawah">
+                <label for="sisi">Hitung Luas Persegi</label>
+                <input type="number" name="sisi" id="sisi">
+                <div class="user">
+                    <p>L = S x S</p>
+                    <p>L = <span class="nomor-user"></span> x <span class="nomor-user"></span></p>
+                    <p>L = <span class="hasil"></span></p>
+                </div>
+                <button type="submit" class="hitung">Hitung</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+
+        <div class="section-persegi-panjang">
+            <div class="nav-persegi-panjang">
+                <span>Luas Persegi Panjang</span>
+            </div>
+            <img src="img/PersegiPanjang.jpg">
+            <div class="atas">
+                <p>Rumus Luas Persegi Panjang yaitu : </p>
+                <p style="text-align: center;font-weight: 700;">L = P x l</p>
+                <p>Di mana : <br>P = Panjang<br>l = Lebar</p>
+            </div>
+            <hr>
+            <form class="bawah">
+                <label for="luas">Hitung Luas Persegi Panjang</label>
+                <input type="number" name="panjang" id="luas" placeholder="P">
+                <input type="number" name="lebar" id="luas" placeholder="l">
+                <div class="user">
+                    <p>L = P x l</p>
+                    <p>L = <span class="panjang-user"></span> x <span class="lebar-user"></span></p>
+                    <p>L = <span class="hasil"></span></p>
+                </div>
+                <button type="submit" class="hitung">Hitung</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
