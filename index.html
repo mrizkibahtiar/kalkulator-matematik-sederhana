@@ -27,7 +27,7 @@
             <img src="img/Persegi.jpg">
             <div class="atas">
                 <p>Rumus Luas Persegi yaitu : </p>
-                <p style="text-align: center;font-weight: 700;">L = S x S</p>
+                <p class="rumus">L = S x S</p>
                 <p>Di mana : <br>L = luas<br>S = Sisi</p>
             </div>
             <hr>
@@ -37,6 +37,29 @@
                 <div class="user">
                     <p>L = S x S</p>
                     <p>L = <span class="nomor-user"></span> x <span class="nomor-user"></span></p>
+                    <p>L = <span class="hasil"></span></p>
+                </div>
+                <button type="submit" class="hitung">Hitung</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="section-keliling-persegi">
+            <div class="nav-keliling-persegi">
+                <span>Keliling Persegi</span>
+            </div>
+            <img src="img/Persegi.jpg">
+            <div class="atas">
+                <p>Rumus Luas Persegi yaitu : </p>
+                <p class="rumus">K = S x 4</p>
+                <p>Di mana : <br>K = Keliling<br>S = Sisi</p>
+            </div>
+            <hr>
+            <form class="bawah">
+                <label for="sisi">Hitung Keliling Persegi</label>
+                <input type="number" name="sisi" id="sisi">
+                <div class="user">
+                    <p>K = 4 x S</p>
+                    <p>K = 4 x <span class="nomor-user"></span></p>
                     <p>L = <span class="hasil"></span></p>
                 </div>
                 <button type="submit" class="hitung">Hitung</button>
@@ -63,6 +86,31 @@
                     <p>L = P x l</p>
                     <p>L = <span class="panjang-user"></span> x <span class="lebar-user"></span></p>
                     <p>L = <span class="hasil"></span></p>
+                </div>
+                <button type="submit" class="hitung">Hitung</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+
+        <div class="section-keliling-persegi-panjang">
+            <div class="nav-keliling-persegi-panjang">
+                <span>Keliling Persegi Panjang</span>
+            </div>
+            <img src="img/PersegiPanjang.jpg">
+            <div class="atas">
+                <p>Rumus Keliling Persegi Panjang yaitu : </p>
+                <p style="text-align: center;font-weight: 700;">K = 2 x (P + l)</p>
+                <p>Di mana : <br>P = Panjang<br>l = Lebar</p>
+            </div>
+            <hr>
+            <form class="bawah">
+                <label for="luas">Hitung Keliling Persegi Panjang</label>
+                <input type="number" name="panjang" id="luas" placeholder="P">
+                <input type="number" name="lebar" id="luas" placeholder="l">
+                <div class="user">
+                    <p>K = 2 x (P + l)</p>
+                    <p>K = 2 x (<span class="panjang-user"></span> + <span class="lebar-user"></span>)</p>
+                    <p>K = <span class="hasil"></span></p>
                 </div>
                 <button type="submit" class="hitung">Hitung</button>
                 <button type="reset">Reset</button>
