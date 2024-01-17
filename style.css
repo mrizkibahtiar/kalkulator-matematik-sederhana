@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: #f5f5f6;
+    height: 1100px;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav h1 {
 }
 
 nav h1 span {
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -64,7 +65,7 @@ main p {
 }
 
 .container-button a {
-    font-size: .8rem;
+    font-size: 0.8rem;
     cursor: pointer;
     display: inline-block;
     background-color: white;
@@ -81,55 +82,83 @@ main p {
     color: white;
 }
 
-.section-persegi, .section-keliling-persegi, .section-persegi-panjang, .section-keliling-persegi-panjang {
+.section-persegi,
+.section-keliling-persegi,
+.section-persegi-panjang,
+.section-keliling-persegi-panjang {
     margin-top: 20px;
     width: 99%;
     height: fit-content;
     border: 1.2px solid #3379b7;
 }
 
-.section-persegi, .section-keliling-persegi, .section-persegi-panjang, .section-keliling-persegi-panjang {
+.section-persegi,
+.section-keliling-persegi,
+.section-persegi-panjang,
+.section-keliling-persegi-panjang {
     display: none;
 }
 
-.nav-persegi, .nav-keliling-persegi, .nav-persegi-panjang, .nav-keliling-persegi-panjang {
+.nav-persegi,
+.nav-keliling-persegi,
+.nav-persegi-panjang,
+.nav-keliling-persegi-panjang {
     text-align: center;
     color: white;
     background-color: #3379b7;
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding-block: 10px;
 }
 
-.section-persegi img, .section-keliling-persegi img, .section-persegi-panjang img, .section-keliling-persegi-panjang img {
+.section-persegi img,
+.section-keliling-persegi img,
+.section-persegi-panjang img,
+.section-keliling-persegi-panjang img {
     margin-top: 10px;
     width: 80px;
 }
 
-.section-persegi .atas, .section-keliling-persegi .atas, .section-persegi-panjang .atas, .section-keliling-persegi-panjang .atas {
+.section-persegi .atas,
+.section-keliling-persegi .atas,
+.section-persegi-panjang .atas,
+.section-keliling-persegi-panjang .atas {
     text-align: left;
     padding-inline: 10px;
     margin-bottom: 10px;
 }
 
-.section-persegi .atas .rumus, .section-keliling-persegi .atas .rumus {
+.section-persegi .atas .rumus,
+.section-keliling-persegi .atas .rumus {
     text-align: center;
     font-weight: 700;
 }
 
-.section-persegi hr, .section-keliling-persegi hr, .section-persegi-panjang hr, .section-keliling-persegi-panjang hr {
+.section-persegi hr,
+.section-keliling-persegi hr,
+.section-persegi-panjang hr,
+.section-keliling-persegi-panjang hr {
     margin-bottom: 10px;
 }
 
-.section-persegi .bawah, .section-keliling-persegi .bawah, .section-persegi-panjang .bawah, .section-keliling-persegi-panjang .bawah {
+.section-persegi .bawah,
+.section-keliling-persegi .bawah,
+.section-persegi-panjang .bawah,
+.section-keliling-persegi-panjang .bawah {
     margin-bottom: 10px;
 }
 
-.section-persegi .bawah label, .section-keliling-persegi .bawah label, .section-persegi-panjang .bawah label, .section-keliling-persegi-panjang .bawah label {
-    font-size: .9rem;
+.section-persegi .bawah label,
+.section-keliling-persegi .bawah label,
+.section-persegi-panjang .bawah label,
+.section-keliling-persegi-panjang .bawah label {
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
-.section-persegi .bawah input, .section-keliling-persegi .bawah input, .section-persegi-panjang .bawah input, .section-keliling-persegi-panjang .bawah input {
+.section-persegi .bawah input,
+.section-keliling-persegi .bawah input,
+.section-persegi-panjang .bawah input,
+.section-keliling-persegi-panjang .bawah input {
     margin-inline: auto;
     display: block;
     width: 100px;
@@ -137,14 +166,20 @@ main p {
     text-align: center;
 }
 
-.section-persegi .bawah input:enabled, .section-keliling-persegi .bawah input:enabled, .section-persegi-panjang .bawah input:enabled, .section-keliling-persegi-panjang .bawah input:enabled {
-    font-size: .7rem;
+.section-persegi .bawah input:enabled,
+.section-keliling-persegi .bawah input:enabled,
+.section-persegi-panjang .bawah input:enabled,
+.section-keliling-persegi-panjang .bawah input:enabled {
+    font-size: 0.7rem;
     padding: 3px;
     outline: none;
 }
 
-.section-persegi .bawah button, .section-keliling-persegi .bawah button, .section-persegi-panjang .bawah button, .section-keliling-persegi-panjang .bawah button {
-    font-size: .7rem;
+.section-persegi .bawah button,
+.section-keliling-persegi .bawah button,
+.section-persegi-panjang .bawah button,
+.section-keliling-persegi-panjang .bawah button {
+    font-size: 0.7rem;
     cursor: pointer;
     background-color: #3379b7;
     color: white;
@@ -155,17 +190,35 @@ main p {
     transition: 350ms;
 }
 
-.section-persegi .bawah .user, .section-keliling-persegi .bawah .user, .section-persegi-panjang .bawah .user, .section-keliling-persegi-panjang .bawah .user {
+.section-persegi .bawah .user,
+.section-keliling-persegi .bawah .user,
+.section-persegi-panjang .bawah .user,
+.section-keliling-persegi-panjang .bawah .user {
     display: none;
     padding-inline: 10px;
     text-align: left;
 }
 
-
-.section-persegi .bawah button:hover, .section-keliling-persegi .bawah button:hover, .section-persegi-panjang .bawah button:hover, .section-keliling-persegi-panjang .bawah button:hover {
+.section-persegi .bawah button:hover,
+.section-keliling-persegi .bawah button:hover,
+.section-persegi-panjang .bawah button:hover,
+.section-keliling-persegi-panjang .bawah button:hover {
     transform: translateY(-2px);
 }
 
-.section-persegi .bawah button[type="reset"], .section-keliling-persegi .bawah button[type="reset"], .section-persegi-panjang .bawah button[type="reset"], .section-keliling-persegi-panjang .bawah button[type="reset"] {
+.section-persegi .bawah button[type="reset"],
+.section-keliling-persegi .bawah button[type="reset"],
+.section-persegi-panjang .bawah button[type="reset"],
+.section-keliling-persegi-panjang .bawah button[type="reset"] {
     background-color: lime;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+    text-align: center;
+    padding-block: 10px;
 }
